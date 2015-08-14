@@ -1,0 +1,659 @@
+/*
+|******************************|
+|             WRAPPER          |
+|******************************|
+*/
+
+body {
+
+}
+
+#wrapper {
+margin: 0 auto;
+width: 1100px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+
+.clear {
+clear: both;
+}
+
+.hide_by_group {
+display: none;
+}
+
+/*
+|******************************|
+|            HEADER            |
+|******************************|
+*/
+
+#header {
+position: relative;
+}
+
+
+#header p {
+position: absolute;
+top: 0px;
+right: 2px;
+color: white;
+font-weight: bold;
+}
+
+#header p span {
+color: red;
+}
+
+#header a {
+color: white;
+font-style: italic;
+}
+
+#header a:hover {
+color: orange;
+}
+
+#header h2 {
+position: absolute;
+top: 80px;
+right: 20px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+text-transform: uppercase;
+}
+
+/***************************************************************************************************************************************************************
+****************************************************************************************************************************************************************
+****************************************************************************************************************************************************************/
+
+
+/*
+|******************************|
+|           MAINCONTENT        |
+|******************************|
+*/
+
+#mainContent {
+margin: 10px 0px 20px 0px;
+}
+
+/******************************************************** SIDEBAR **********************************************************************/
+
+#sidebar {
+width: 200px;
+float: left;
+}
+
+#sidebar h2 {
+width: auto;
+height: 40px;
+line-height: 40px;
+font-weight: bold;
+font-size: 14px;
+padding-left: 20px;
+color: #0775c9;
+background-color: #97c7ec;
+}
+
+#sidebar ul {
+
+}
+
+#sidebar ul li {
+padding: 0px 0px 0px 30px;
+height: 40px;
+line-height: 40px;
+border-bottom: 1px solid #97c7ec;
+}
+
+#sidebar li:hover {
+background-color: #d1eaff;
+}
+
+#sidebar a {
+display: block;
+font-weight: bold;
+color: #0775c9;
+text-decoration: none;
+}
+
+#sidebar a:hover {
+color: #e17009;
+}
+
+
+/******************************************************** PRIMARY **********************************************************************/
+
+#primary {
+width: 880px;
+float: left;
+margin-left: 20px;
+border-top: none;
+}
+
+
+/************************************************************** CƠ QUAN BAN HÀNH **************************************************************/
+
+
+#table_agency {
+font-family: "Time News Roman";
+width: 860px;
+border-collapse: collapse;
+text-align: left;
+margin: 0px 0px 20px 20px;
+font-size: 16px;
+color: #336699;
+}
+
+.add_agency {
+margin: 0px 0px 0px 20px;
+font-size: 16px;
+}
+
+#table_agency td {
+border: 1px solid #97c7ec;
+padding: 5px 0px 5px 5px;
+line-height: 16px;
+height: 20px;
+}
+
+#table_agency th {
+border: 1px solid #97c7ec;
+padding: 10px 0px 10px 5px;
+text-align: center;
+font-weight: bold;
+line-height: 20px;
+color: #003399;
+}
+
+#table_agency a {
+text-decoration: none;
+font-weight: bold;
+}
+
+#table_agency a:hover {
+text-decoration: underline;
+}
+
+td.table_agency_col1 {
+width: 500px;
+}
+
+td.table_agency_col2 {
+width: 50px;
+text-align: center;
+}
+
+td.table_agency_col2 a {
+color: #b25b26;
+}
+
+td.table_agency_col3 {
+width: 50px;
+text-align: center;
+}
+
+td.table_agency_col3 a {
+color: #990000;
+}
+
+/************************************************************** DANH SÁCH CÁN BỘ **************************************************************/
+
+#table_staff {
+font-family: "Time News Roman";
+width: 860px;
+border-collapse: collapse;
+text-align: left;
+margin: 0px 0px 20px 20px;
+font-size: 16px;
+color: #336699;
+}
+
+#table_staff td {
+border: 1px solid #97c7ec;
+padding: 5px 5px 5px 5px;
+line-height: 16px;
+height: 20px;
+}
+
+#table_staff th {
+border: 1px solid #97c7ec;
+padding: 10px 5px 10px 5px;
+text-align: center;
+font-weight: bold;
+line-height: 20px;
+color: #003399;
+}
+
+#table_staff a {
+text-decoration: none;
+font-weight: bold;
+}
+
+#table_staff a:hover {
+text-decoration: underline;
+}
+
+td.table_staff_col1, th.table_staff_col1 {
+width: 200px;
+}
+
+td.table_staff_col2, th.table_staff_col2 {
+width: 500px;
+}
+
+td.table_staff_col3, th.table_staff_col3 {
+width: 50px;
+text-align: center;
+}
+
+td.table_staff_col3 a {
+color: #b25b26;
+}
+
+td.table_staff_col4, th.table_staff_col4 {
+width: 50px;
+text-align: center;
+}
+
+td.table_staff_col4 a {
+color: #990000;
+}
+
+/************************************************************** DANH SÁCH LĨNH VỰC **************************************************************/
+
+#table_field {
+font-family: "Time News Roman";
+width: 860px;
+border-collapse: collapse;
+text-align: left;
+margin: 0px 0px 20px 20px;
+font-size: 16px;
+color: #336699;
+}
+
+#table_field td {
+border: 1px solid #97c7ec;
+padding: 5px 5px 5px 5px;
+line-height: 16px;
+height: 20px;
+}
+
+#table_field th {
+border: 1px solid #97c7ec;
+padding: 10px 5px 10px 5px;
+text-align: center;
+font-weight: bold;
+line-height: 20px;
+color: #003399;
+}
+
+#table_field a {
+text-decoration: none;
+font-weight: bold;
+}
+
+#table_field a:hover {
+text-decoration: underline;
+}
+
+td.table_field_col1, th.table_field_col1 {
+width: 20px;
+}
+
+td.table_field_col2, th.table_field_col2 {
+width: 500px;
+}
+
+td.table_field_col3, th.table_field_col3 {
+
+}
+
+td.table_field_col4, th.table_field_col4 {
+width: 50px;
+text-align: center;
+}
+
+td.table_field_col4 a {
+color: #b25b26;
+}
+
+td.table_field_col5, th.table_field_col5 {
+width: 50px;
+text-align: center;
+}
+
+td.table_field_col4 a {
+color: #990000;
+}
+
+/************************************************************** DANH SÁCH DỊCH VỤ **************************************************************/
+
+#table_service {
+font-family: "Time News Roman";
+width: 860px;
+border-collapse: collapse;
+text-align: left;
+margin: 0px 0px 20px 20px;
+font-size: 16px;
+color: #336699;
+}
+
+#table_service td {
+border: 1px solid #97c7ec;
+padding: 5px 5px 5px 5px;
+line-height: 16px;
+height: 20px;
+}
+
+#table_service th {
+border: 1px solid #97c7ec;
+padding: 10px 5px 10px 5px;
+text-align: center;
+font-weight: bold;
+line-height: 20px;
+color: #003399;
+}
+
+#table_service a {
+text-decoration: none;
+font-weight: bold;
+}
+
+#table_service a:hover {
+text-decoration: underline;
+}
+
+td.table_service_col1, th.table_service_col1 {
+width: 250px;
+}
+
+td.table_service_col2, th.table_service_col2 {
+width: 450px;
+}
+
+td.table_service_col3, th.table_service_col3 {
+width: 50px;
+text-align: center;
+}
+
+td.table_service_col3 a {
+color: #b25b26;
+}
+
+td.table_service_col4, th.table_service_col4 {
+width: 50px;
+text-align: center;
+}
+
+td.table_service_col4 a {
+color: #990000;
+}
+
+
+/************************************************************** DANH SÁCH CÂU HỎI GIẢI ĐÁP **************************************************************/
+
+#table_aq {
+font-family: "Time News Roman";
+width: 860px;
+border-collapse: collapse;
+text-align: left;
+margin: 0px 0px 20px 20px;
+font-size: 16px;
+color: #336699;
+}
+
+#table_aq td {
+border: 1px solid #97c7ec;
+padding: 5px 5px 5px 5px;
+line-height: 16px;
+height: 20px;
+}
+
+#table_aq th {
+border: 1px solid #97c7ec;
+padding: 10px 5px 10px 5px;
+text-align: center;
+font-weight: bold;
+line-height: 20px;
+color: #003399;
+}
+
+#table_aq a {
+text-decoration: none;
+font-weight: bold;
+}
+
+#table_aq a:hover {
+text-decoration: underline;
+}
+
+td.table_aq_col1, th.table_aq_col1 {
+width: 30px;
+text-align: center;
+}
+
+td.table_aq_col2, th.table_aq_col2 {
+width: 670px;
+}
+
+td.table_aq_col3, th.table_aq_col3 {
+width: 50px;
+text-align: center;
+}
+
+td.table_aq_col3 a {
+color: #b25b26;
+}
+
+td.table_aq_col4, th.table_aq_col4 {
+width: 50px;
+text-align: center;
+}
+
+td.table_aq_col4 a {
+color: #990000;
+}
+
+/************************************************************** CÂU HỎI THƯỜNG GẶP **************************************************************/
+
+#table_faq {
+font-family: "Time News Roman";
+width: 860px;
+border-collapse: collapse;
+text-align: left;
+margin: 0px 0px 20px 20px;
+font-size: 16px;
+color: #336699;
+}
+
+#table_faq td {
+border: 1px solid #97c7ec;
+padding: 5px 5px 5px 5px;
+line-height: 16px;
+height: 20px;
+}
+
+#table_faq th {
+border: 1px solid #97c7ec;
+padding: 10px 5px 10px 5px;
+text-align: center;
+font-weight: bold;
+line-height: 20px;
+color: #003399;
+}
+
+#table_faq a {
+text-decoration: none;
+font-weight: bold;
+}
+
+#table_faq a:hover {
+text-decoration: underline;
+}
+
+td.table_faq_col1, th.table_faq_col1 {
+width: 30px;
+text-align: center;
+}
+
+td.table_faq_col2, th.table_faq_col2 {
+width: 400px;
+}
+
+td.table_faq_col3, th.table_faq_col3 {
+width: 270px;
+}
+
+td.table_faq_col4, th.table_faq_col4 {
+width: 50px;
+text-align: center;
+}
+
+td.table_faq_col4 a {
+color: #b25b26;
+}
+
+td.table_faq_col5, th.table_faq_col5 {
+width: 50px;
+text-align: center;
+}
+
+td.table_faq_col5 a {
+color: #990000;
+}
+
+
+/************************************************************** STYLE FORM **************************************************************/
+#primary form.form_create {
+margin: 0px 0px 10px 10px;
+}
+
+#primary form label {
+font-weight: bold;
+color: #055dca;
+display: block;
+margin: 15px 0px 5px 0px;
+}
+
+#primary form input.input_create {
+border-radius: 5px;
+-moz-border-radius: 3px;
+border: 1px solid #6dbdf0;
+width: 300px;
+height: 25px;
+text-indent: 5px;
+}
+
+#primary form.form_create span {
+font-weight: bold;
+color: #cc6600;
+}
+
+#primary form textarea.textarea_create {
+width: 80%;
+height: 200px;
+border-radius: 5px;
+-moz-border-radius: 3px;
+border: 1px solid #6dbdf0;
+padding: 0px 0px 0px 5px;
+}
+
+#primary form input.submit_create {
+border-radius: 5px;
+-moz-border-radius: 3px;
+border: 1px solid #6dbdf0;
+height: 30px;
+width: 100px;
+margin: 10px 0px;
+color: white;
+font-size: 14px;
+text-transform: uppercase;
+line-height: 30px;
+background: #1467cd;
+}
+
+#primary form input.submit_create:hover {
+cursor: pointer;
+}
+
+
+#primary form select {
+height: 20px;
+line-height: 20px;
+}
+
+/*************************************************************PAGINATION****************************************************************************/
+
+#primary div.pagination {
+margin-left: 20px;
+}
+
+#primary div.pagination a {
+padding: 0px 4px;
+color: #003399;
+font-weight: bold;
+}
+
+#primary div.pagination strong {
+color: #336699;
+}
+
+#primary div.pagination a:hover {
+color: #e17009;
+}
+
+
+/***************************************************************************************************************************************************************
+****************************************************************************************************************************************************************
+****************************************************************************************************************************************************************/
+
+/*
+|******************************|
+|             FOOTER           |
+|******************************|
+*/
+
+#footer {
+margin: 0px auto;
+margin-top: 200px;
+}
+
+#footer #footerNav {
+background-color: #005494;
+height: 25px;
+padding-left: 380px;
+}
+
+#footer #footerNav ul li {
+display: inline;
+border-right: 1px solid white;
+padding: 0px 10px;
+}
+
+#footer #footerNav ul li:last-child {
+border: none;
+}
+
+#footer #footerNav a {
+text-decoration: none;
+line-height: 25px;
+color: #fff7d4;
+}
+
+#footer #footerNav a:hover {
+text-decoration: underline;
+color: #e3c1ac;
+}
+
+#footer #site_info {
+padding: 5px 0px 5px 0px;
+line-height: 16px;
+text-align: center;
+background-color: #005494;
+color: #fff7d4;
+font-size: 11px;
+}
